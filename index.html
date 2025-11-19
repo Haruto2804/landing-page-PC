@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PC - Haruto Shop</title>
+  <link rel="stylesheet" href="dist/output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="root bg-slate-900 w-full text-base mx-auto font-Poppins">
+    <header class="bg-slate-800 flex justify-between items-center p-4 border-b border-gray-500
+    fixed top-0 right-0 left-0 z-1000
+    ">
+      <div class="flex gap-5 items-center text-white basis-3/6 ">
+        <div class="flex gap-3">
+          <div class="bg-[url(https://placehold.co/50x50)] size-10"></div>
+          <p class="text-2xl font-semibold whitespace-nowrap">Haruto Store</p>
+        </div>
+        <ul class="text-white font-medium text-xl flex gap-5 hidden lg:block lg:flex">
+          <li class="cursor-pointer hover:text-blue-500 transition-all group">
+            Gaming
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-500"></span>
+          </li>
+          <li class=" cursor-pointer transition-all group hover:text-blue-500">
+            Workstations
+            <span class="block h-0.5 max-w-0 group-hover:max-w-full transition-all duration-500 bg-blue-500"></span>
+          </li>
+          <li class="group cursor-pointer hover:text-blue-500 transition-all">
+            Custom Builds
+            <span class="block max-w-0 group-hover:max-w-full bg-blue-500 transition-all duration-500 h-0.5"></span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex gap-3 items-center md:basis-3/6">
+        <div class="relative hidden md:block flex-1">
+          <i class="fa-solid fa-magnifying-glass fa-xl absolute top-1/2 left-3" style="color: #687792;"></i>
+          <input type="text" placeholder="Search builds.."
+            class="rounded w-full bg-slate-600  p-3 text-white text-xl pl-12">
+        </div>
+
+        <div class="cursor-pointer bg-slate-600 rounded p-2 size-10 flex justify-center items-center">
+          <i class="fa-regular fa-user fa-lg" style="color: #ffffff;"></i>
+        </div>
+        <div class="cursor-pointer bg-slate-600 rounded p-2 size-10 flex justify-center items-center">
+          <i class="fa-solid fa-cart-arrow-down fa-lg" style="color: #ffffff;"></i>
+        </div>
+      </div>
+    </header>
+    <main class="text-white mt-5 max-sm:px-2 md:px-15 lg:px-20">
+      <div class="hero-section relative p-4 max-sm: mt-20">
+        <div class="
+        bg-[url(../src/img/pc-minhhoa.png)] size-100 
+        bg-fixed
+        bg-cover bg-center opacity-0.8 w-full h-screen opacity-40">
+        </div>
+        <div class="absolute flex flex-col gap-5 text-center items-center w-full
+        top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <p class="text-3xl font-bold sm:text-5xl lg:text-6xl"">Power Redefined</p>
+          <p class=" text-gray-400 text-lg lg:text-2xl font-semibold">
+            Expertly crafted systems for gaming,
+            creativity, and productivity. Your dream PC awaits.
+          </p>
+          <button class="cursor-pointer bg-blue-500 text-white font-semibold rounded p-3 w-1/3">
+            Explore Builds
+          </button>
+        </div>
+      </div>
+      <div class="system-pc p-4">
+        <p class="text-3xl font-semibold text-center mb-5 ">Choose Your System</p>
+        <div class="grid grid-cols-1 gap-16 lg:grid-cols-3">
+
+          <div class="card flex flex-col rounded-xl justify-evenly">
+            <img src="./src/img/gaming-rigs.png" class="rounded-xl h-4/5" alt="Image representing a Gaming PC">
+            <div>
+              <p class="card-name text-xl font-medium">Gaming Rigs</p>
+              <p class="text-lg text-gray-400">For unmatched performance and high-refresh-rate gaming.</p>
+            </div>
+
+          </div>
+
+          <div class="card flex flex-col rounded-xl justify-evenly">
+            <img src="./src/img/workstation.png" class="rounded-xl h-4/5""
+              alt=" Image representing a Professional Workstation PC">
+            <div>
+              <p class="card-name text-xl font-medium">Workstations</p>
+              <p class="text-lg text-gray-400">Built for intense productivity, rendering, and design.</p>
+            </div>
+
+          </div>
+
+          <div class="card flex flex-col rounded-xl justify-evenly ">
+            <img src="./src/img/custom-build.png" class="rounded-xl bg-center h-4/5""
+              alt=" Image representing an Everyday Use PC">
+            <div>
+              <p class="card-name text-xl font-medium">Custom Builds</p>
+              <p class="text-lg text-gray-400">Tailored to your exact needs.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="featured-products p-4">
+        <p class="text-3xl font-semibold text-center mb-5">Featured Products</p>
+        <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 xl:grid-cols-3">
+
+          <div class="rounded-xl bg-slate-800 flex flex-col gap-2 p-4">
+            <img src="./src/img/Featured Products/pc1.png" class="mb-5"
+              alt="Image of the Apex Prime Gaming PC">
+            <p class="text-2xl font-semibold">PC Gaming</p>
+            <p class="text-gray-400 text-xl font-medium">RX6600 | Core i5-12400F | RAM 16GB | NVME 256G</p>
+            <p class="text-[25px] text-white font-bold">$599</p>
+            <button
+              class="hover:bg-blue-600 bg-slate-600 ease-in-out transition-all duration-75 text-white font-bold rounded-sm p-4 text-xl cursor-pointer">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="rounded-xl bg-slate-800 flex flex-col gap-2 p-4">
+            <img src="./src/img/Featured Products/pc2.png" class="mb-5"
+              alt="Image of the Aether Core Gaming PC">
+            <p class="text-2xl font-semibold">PC Dual Xeon Gold 6138</p>
+            <p class="text-gray-400 text-xl font-medium">RTX3060 12G | Core i9-14900K | RAM 128GB | NVME 500G</p>
+            <p class="text-[25px] text-white font-bold">$1,999</p>
+            <button
+              class="hover:bg-blue-600 bg-slate-600 ease-in-out transition-all duration-75 text-white font-bold rounded-sm p-4 text-xl cursor-pointer">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="rounded-xl bg-slate-800 flex flex-col gap-2 p-4">
+            <img src="./src/img/Featured Products/pc3.png" class="mb-5"
+              alt="Image of the Chrono Void Gaming PC">
+            <p class="text-2xl font-semibold">PC Gaming</p>
+            <p class="text-gray-400 text-xl font-medium">GTX1060 6G | Core i3-13100F | RAM 16GB | NVME 256G</p>
+            <p class="text-[25px] text-white font-bold">$499</p>
+            <button
+              class="hover:bg-blue-600 bg-slate-600 ease-in-out transition-all duration-75 text-white font-bold rounded-sm p-4 text-xl cursor-pointer">
+              Add to Cart
+            </button>s
+          </div>
+
+        </div>
+      </div>
+      <div class="reviews p-4 ">
+        <p class="text-center text-3xl font-bold mt-10 mb-10">What our Customers Say</p>
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+
+          <div class="review bg-slate-800 flex rounded-xl
+      flex-col justify-center items-center gap-5 p-8">
+            <div class="rating flex gap-2">
+              <i class="fa-solid fa-star" style="color: #4f46e5;"></i>
+              <i class="fa-solid fa-star" style="color: #4f46e5;"></i>
+              <i class="fa-solid fa-star" style="color: #4f46e5;"></i>
+              <i class="fa-solid fa-star" style="color: #4f46e5;"></i>
+              <i class="fa-solid fa-star" style="color: #4f46e5;"></i>
+            </div>
+            <p class="text-center text-xl italic">
+              "The Aether Core build quality is insane. It runs everything I throw at it without
+              breaking a sweat. Best PC I've ever owned, hands down."
+            </p>
+            <p class="text-lg text-slate-400 font-semibold">-Alex R. | Pro Gamer</p>
+          </div>
+
+          <div class="review bg-slate-800 flex rounded-xl
+      flex-col justify-center items-center gap-5 p-8">
+            <div class="rating flex gap-2">
+              <i class="fa-solid fa-star" style="color: #4f46e5;"></i>
+              <i class="fa-solid fa-star" style="color: #4f46e5;"></i>
+              <i class="fa-solid fa-star" style="color: #4f46e5;"></i>
+              <i class="fa-solid fa-star" style="color: #4f46e5;"></i>
+              <i class="fa-solid fa-star" style="color: #4f46e5;"></i>
+            </div>
+            <p class="text-center text-xl italic">
+              "My rendering times have been cut in half with the Chrono Void workstation. Fast shipping and the
+              cable management is impeccable!"
+            </p>
+            <p class="text-lg text-slate-400 font-semibold">-Sarah K. | 3D Animator</p>
+          </div>
+
+          <div class="review bg-slate-800 flex rounded-xl
+      flex-col justify-center items-center gap-5 p-8">
+            <div class="rating flex gap-2">
+              <i class="fa-solid fa-star" style="color: #4f46e5;"></i>
+              <i class="fa-solid fa-star" style="color: #4f46e5;"></i>
+              <i class="fa-solid fa-star" style="color: #4f46e5;"></i>
+              <i class="fa-solid fa-star" style="color: #4f46e5;"></i>
+              <i class="fa-regular fa-star" style="color: #4f46e5;"></i>
+            </div>
+            <p class="text-center text-xl italic">
+              "Excellent PC for the price. I use it for my home office and streaming. Had a small question during setup,
+              and support was fantastic."
+            </p>
+            <p class="text-lg text-slate-400 font-semibold">-Mike P. | Small Business Owner</p>
+          </div>
+
+        </div>
+      </div>
+    </main>
+    <footer class=" bg-slate-950 mt-10 p-5 w-ful">
+      <div class="grid grid-cols-1 gap-10 md:grid-cols-3 lg:grid-cols-4 items-center">
+        <div class="flex flex-col gap-3">
+          <div class="flex gap-4 items-center">
+            <img src="https://placehold.co/50x50" alt="">
+            <p class="text-2xl font-semibold text-white">Haruto Store</p>
+          </div>
+          <p class="text-lg text-gray-300">Crafting high-performance PCs
+            for enthusiasts and professionals.
+          </p>
+        </div>
+        <div class="flex flex-col gap-3">
+          <p class="text-xl font-bold text-white mb-5">Shop</p>
+          <ul class="text-lg text-gray-400 flex flex-col gap-4">
+            <a class="hover:text-blue-700" href="#">Gaming PCs</a>
+            <a class="hover:text-blue-700" href="#">Workstations</a>
+            <a class="hover:text-blue-700" href="#">Custom Builds</a>
+            <a class="hover:text-blue-700" href="#">Components</a>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-3">
+          <p class="text-xl font-bold text-white mb-5">Support</p>
+          <ul class="text-lg text-gray-400 flex flex-col gap-4">
+            <a class="hover:text-blue-700" href="#">Contact Us</a>
+            <a class="hover:text-blue-700" href="#">FAQ</a>
+            <a class="hover:text-blue-700" href="#">Warranty</a>
+            <a class="hover:text-blue-700" href="#">Returns</a>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-3">
+          <p class="text-xl font-bold text-white mb-5">Company</p>
+          <ul class="text-lg text-gray-400 flex flex-col gap-4">
+            <a class="hover:text-blue-700" href="#">About Us</a>
+            <a class="hover:text-blue-700" href="#">Careers</a>
+            <a class="hover:text-blue-700" href="#">Blog</a>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-400 mt-5">
+        <p class="text-gray-500 text-center text-xl mt-5">2024 Haruto Store. All rights reserved. | Privacy Policy |
+          Terms of
+          Service</p>
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "landing-page-pc",
+  "version": "1.0.0",
+  "description": "Đây là một mini project **Landing Page bán PC** được xây dựng nhằm mục đích chính là luyện tập và làm chủ **Tailwind CSS**, **không sử dụng bất kỳ framework JavaScript** lớn nào (React, Vue, Angular).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css  --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haruto2804/landing-page-PC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Haruto2804/landing-page-PC/issues"
+  },
+  "homepage": "https://github.com/Haruto2804/landing-page-PC#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  }
+}
