@@ -19,11 +19,18 @@
       transform: translateX(0);
       opacity: 1;
     }
+    #overlay {
+      display: none;
+    }
+    #overlay.openOverlay {
+      display: block;
+    }
     </style>
 </head>
 
 
 <body class="bg-slate-900">
+  <div id = "overlay" class = "fixed top-0 bottom-0 right-0 left-0 bg-black/50 z-2"></div>
   <div class=" root z-600 bg-slate-900 w-full text-base mx-auto font-Poppins">
     <header id="header" class="bg-slate-800 flex justify-between items-center p-4 border-b border-gray-500
     fixed top-0 right-0 left-0 z-500
