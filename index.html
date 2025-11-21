@@ -9,35 +9,38 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
+  <style>
     #mobile-nav {
       transform: translateX(100%);
-      opacity:0;
+      opacity: 0;
       transition: all 1s ease-in-out;
     }
+
     #mobile-nav.display {
       transform: translateX(0);
       opacity: 1;
     }
+
     #overlay {
       display: none;
     }
+
     #overlay.openOverlay {
       display: block;
     }
-    </style>
+  </style>
 </head>
 
 
 <body class="bg-slate-900">
-  <div id = "overlay" class = "fixed top-0 bottom-0 right-0 left-0 bg-black/50 z-2"></div>
+  <div id="overlay" class="fixed top-0 bottom-0 right-0 left-0 bg-black/50 z-2"></div>
   <div class=" root z-600 bg-slate-900 w-full text-base mx-auto font-Poppins">
     <header id="header" class="bg-slate-800 flex justify-between items-center p-4 border-b border-gray-500
     fixed top-0 right-0 left-0 z-500
     ">
-      <div class="flex gap-5 items-center text-white basis-3/6 ">
+      <div class="flex gap-5 items-center text-white basis-3/6">
         <div class="flex gap-3 items-center">
-          <div class="bg-[url(https://placehold.co/50x50)] size-10"></div>
+          <img src="../src/img/logo/logo-haruto.png" class="size-10" alt="">
           <p class="text-lg lg:text-2xl font-semibold whitespace-nowrap select-none">Haruto Store</p>
         </div>
         <ul class="text-white font-medium text-xl flex gap-5 hidden lg:block lg:flex">
@@ -89,8 +92,7 @@
           <a href="" class="rounded py-2 px-2 hover:bg-slate-900 text-center transition-all ease-in-out duration-300">
             Custom Builds</a>
         </nav>
-        <label id = "menu-toggle" 
-        class="cursor-pointer bg-slate-600 rounded hover:bg-blue-800 transition-all 
+        <label id="menu-toggle" class="cursor-pointer bg-slate-600 rounded hover:bg-blue-800 transition-all 
             p-2 size-10 flex justify-center items-center
             md:hidden">
           <i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
@@ -250,7 +252,7 @@
       <div class="grid grid-cols-1 gap-10 md:grid-cols-3 lg:grid-cols-4 items-center">
         <div class="flex flex-col gap-3">
           <div class="flex gap-4 items-center">
-            <img src="https://placehold.co/50x50" alt="">
+            <img src="../src/img/logo/logo-haruto.png"  class = "size-12" alt="">
             <p class="text-2xl font-semibold text-white">Haruto Store</p>
           </div>
           <p class="text-lg text-gray-300">Crafting high-performance PCs
@@ -294,7 +296,7 @@
     </footer>
 
   </div>
-  <script src = "src/js/main.js"></script>
+  <script src="src/js/main.js"></script>
 </body>
 
 </html>
